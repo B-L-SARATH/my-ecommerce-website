@@ -1,0 +1,44 @@
+  @media screen and (max-width:480px) {
+
+    nav{
+      width:100vw;
+      position: relative;
+      flex-direction: column;
+
+    }
+    .logo{
+
+      margin: 15px 0;
+      justify-content: center;
+    }
+    nav ul{
+      justify-content: center;
+      margin-left: 5px;
+    }
+
+    .more{
+      display: none;
+
+    }
+    .cartname{
+      display: none;
+    }
+    .cart{
+    display: absolute;
+    left: 300px;
+    top:-125px;
+
+
+    }
+    .search input{
+      width:80vw;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    }
+    .searchicon a{
+      margin-bottom: 10px;
+    }
+    .slider{
+      height: 30vh;
+    }
+  }

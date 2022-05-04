@@ -1,7 +1,7 @@
   @media screen and (max-width:480px) {
 
     nav{
-      width:100vw;
+      width:100%;
       position: relative;
       flex-direction: column;
 
@@ -25,13 +25,14 @@
     }
     .cart{
     display: absolute;
+      width:10%;
     left: 300px;
     top:-125px;
 
 
     }
     .search input{
-      width:80vw;
+      width:80%;
     margin-left: 25px;
     margin-bottom: 10px;
     }
